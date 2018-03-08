@@ -1,0 +1,137 @@
+/*For layout review show borders*/
+/** {
+    border: 1px solid red !important;
+}*/
+
+* {
+/*Include padding and border in the element's total width and height*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+/*Set font family for portfolio*/
+    font-family: 'Lato', sans-serif;
+}
+
+/*Set width to the main parts of html*/
+.container {
+    width: 100%;
+}
+
+/*
+Header
+*/
+
+.heading {
+    display: flex;
+}
+
+.hd_logo {
+    width: 20%;
+    margin: 10px 0 0 10px;   
+}
+
+.logo {
+    width:100%;
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.hd_signature {
+    width: 80%;
+}
+
+h1 {
+    margin: 10px 0 0 0;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+h2 {
+    margin: 0px;
+    padding-right: 10px;
+    text-align: right;
+    font-size:22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+/*
+Header line
+*/
+
+hr {
+    margin: 10px 0;
+    border: 0;
+    height:3px;
+    background-color: #7d97ad;
+}
+
+/*
+Main Picture
+*/
+
+.mainpic {
+    display: block;
+    width:100%;
+    margin: 10px 0;
+}
+
+/*
+Featured work
+*/
+
+.ftr_work_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 300;
+    color: #7d97ad;
+}
+
+.ftr_work_item {
+    width: 33.33%;
+    min-width: 300px;
+    margin: 10px auto;
+}
+
+.projectpic {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+h4 {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #2d3c49;
+}
+
+.projectlink {
+    text-align: center;
+    color: #2d3c49;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.projectlink:hover {
+    text-decoration: underline;
+}
