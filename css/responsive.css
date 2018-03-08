@@ -2,11 +2,11 @@
     margin: auto; /*centering horizontally if the screen is larger than max-width*/
     width: 100%;
     max-width: 1200px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
-@media screen and (max-width:499px) {
+@media only screen and (max-width:499px) {
     .hd_logo {
         min-width: 60px;
     }
@@ -18,13 +18,12 @@
         font-size: 18px;
     }
     .ftr_work_item {
-        width:100%;
+        width: 100%;
         margin: 10px auto; 
     }    
 }
 
-
-@media screen and (min-width:500px) and (max-width:699px){
+@media only screen and (min-width:500px) and (max-width:699px){
     .hd_logo {
         min-width: 70px;
     }
@@ -36,7 +35,7 @@
         font-size: 20px;
     }
     .ftr_work_item {
-        width:50%;
+        width: 50%;
         min-width: 150px;
         margin: 10px auto; 
     }
